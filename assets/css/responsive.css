@@ -1,0 +1,1269 @@
+/* =========================================================
+   RESPONSIVE.CSS - MOBILE-FIRST APPROACH
+   Comprehensive responsive styles for all sections
+========================================================= */
+
+/* =========================================================
+   BASE MOBILE STYLES (Default - Mobile First)
+========================================================= */
+
+/* Already optimized for mobile in main CSS */
+
+/* =========================================================
+   SMALL PHONES (max-width: 375px)
+========================================================= */
+@media (max-width: 375px) {
+  html {
+    font-size: 9px; /* Slightly smaller base for very small screens */
+  }
+
+  .hero-text h1 {
+    font-size: 3.2rem;
+  }
+
+  .mentorship-title {
+    font-size: 3.6rem;
+  }
+
+  .floating-stat-card {
+    display: none; /* Hide on very small screens */
+  }
+}
+
+/* =========================================================
+   SMALL MOBILE (max-width: 480px)
+========================================================= */
+@media (max-width: 480px) {
+  
+  /* ===== HEADER ===== */
+  .header-container {
+    padding: 1rem 1.5rem;
+  }
+
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .logo-title {
+    font-size: 1.2rem;
+  }
+
+  /* ===== MOBILE NAV ===== */
+  .mobile-nav {
+    padding: 6rem 2rem 2rem 2rem;
+  }
+
+  .mobile-nav a {
+    font-size: 2.4rem;
+    padding: 1rem 0;
+  }
+
+  .mobile-nav .btn-cta {
+    font-size: 1.6rem;
+    padding: 1.4rem 1.8rem;
+  }
+
+  .mobile-nav .btn-cta .icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  /* ===== HERO ===== */
+  .split-hero {
+    grid-template-columns: 1fr;
+    height: auto;
+    min-height: 100vh;
+  }
+  .floating-cards{
+    display: none;
+  }
+  .hero-left {
+    padding: 4rem 2rem;
+  }
+
+  .hero-right {
+    height: 50vh;
+    min-height: 400px;
+  }
+
+  .hero-badge {
+    font-size: 1.1rem;
+    padding: 0.5rem 1.2rem;
+  }
+
+  .hero-text h1 {
+    font-size: 3.4rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .hero-text p {
+    font-size: 1.3rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .glass-card {
+    width: 160px;
+    padding: 1.2rem;
+  }
+
+  .glass-card h3 {
+    font-size: 2rem;
+  }
+
+  /* ===== MENTORSHIP HERO ===== */
+  .mentorship-hero {
+    padding: 8rem 2rem 6rem;
+  }
+
+  .mentorship-hero::before,
+  .mentorship-hero::after {
+    width: 400px;
+    height: 400px;
+  }
+
+  .mentorship-pill {
+    font-size: 1.1rem;
+    padding: 0.5rem 1.4rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .mentorship-title {
+    font-size: 3.6rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .mentorship-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .mentorship-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .mentorship-actions .btn {
+    width: 100%;
+    justify-content: center;
+    padding: 1.1rem 2rem;
+    font-size: 1.4rem;
+  }
+
+  .mentorship-price {
+    font-size: 1.2rem;
+  }
+
+  /* ===== SOLUTIONS SHOWCASE ===== */
+  .solutions-showcase-section {
+    padding: 6rem 0;
+  }
+
+  .solutions-showcase-container {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    padding: 0 1.5rem;
+  }
+
+  .solutions-eyebrow {
+    font-size: 1.1rem;
+  }
+
+  .solutions-title {
+    font-size: 3.2rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .solutions-subtitle {
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+  }
+
+  .solution-item {
+    padding: 1.6rem;
+    gap: 1.2rem;
+  }
+
+  .solution-item .icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .solution-item i {
+    font-size: 1.6rem;
+  }
+
+  .solution-item strong {
+    font-size: 1.5rem;
+  }
+
+  .solutions-right {
+    height: 350px;
+  }
+
+  .solution-visual .content {
+    bottom: 2rem;
+    left: 2rem;
+    right: 2rem;
+  }
+
+  .solution-visual h3 {
+    font-size: 2.2rem;
+  }
+
+  .solution-visual p {
+    font-size: 1.3rem;
+  }
+
+  /* ===== PRICING SECTION ===== */
+  .pricing-section {
+    padding: 6rem 0;
+  }
+    .pricing-section .reveal-text,
+  .pricing-section .reveal-card,
+  .pricing-section .reveal-value {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  .pricing-header {
+    margin-bottom: 4rem;
+  }
+
+  .pricing-eyebrow {
+    font-size: 1.1rem;
+  }
+
+  .pricing-title {
+    font-size: 3.2rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .pricing-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .pricing-card {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding: 2.8rem 2rem;
+  }
+
+  .pricing-card-header h3 {
+    font-size: 2.2rem;
+  }
+
+  .pricing-card-header p {
+    font-size: 1.3rem;
+  }
+
+  .pricing-price .amount {
+    font-size: 3.6rem;
+  }
+
+  .pricing-price .note {
+    font-size: 1.2rem;
+  }
+
+  .pricing-features {
+    gap: 1.4rem;
+  }
+
+  .pricing-features li {
+    font-size: 1.3rem;
+  }
+
+  .pricing-features i {
+    font-size: 1.6rem;
+  }
+
+  .pricing-graphic {
+    min-height: 350px;
+    padding: 2rem;
+  }
+
+  .pricing-stat-value {
+    font-size: 2.8rem;
+  }
+
+  .pricing-stat-label {
+    font-size: 1.2rem;
+  }
+
+  .pricing-visual-bar {
+    padding: 1.2rem;
+  }
+
+  .pricing-visual-bar span {
+    font-size: 1.1rem;
+  }
+
+  .pricing-visual-bar .bar-value {
+    font-size: 1.4rem;
+  }
+
+  /* ===== INFO SCALE SECTION ===== */
+  .info-scale-section {
+    padding: 6rem 1.5rem;
+  }
+
+  .info-scale-inner {
+    padding: 4rem 2.4rem;
+    border-radius: 32px;
+  }
+
+  .info-pill {
+    font-size: 1.1rem;
+    padding: 0.6rem 1.6rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .info-title {
+    font-size: 3.2rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .info-description {
+    font-size: 1.4rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .info-cta {
+    padding: 1.3rem 2.8rem;
+    font-size: 1.4rem;
+  }
+
+  /* ===== SECURITY SECTION ===== */
+  .security-section {
+    grid-template-columns: 1fr;
+    height: auto;
+    min-height: auto;
+  }
+
+  .security-visual {
+    min-height: 400px;
+    padding: 4rem 2rem;
+  }
+
+  .security-shield {
+    width: 140px;
+    height: 140px;
+  }
+
+  .security-shield i {
+    font-size: 5rem;
+  }
+
+  .security-content {
+    padding: 4rem 2rem;
+  }
+
+  .security-title {
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .security-description {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+  }
+
+  .security-grid {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+    padding-top: 3rem;
+  }
+
+  .security-item h4 {
+    font-size: 2rem;
+  }
+
+  .security-item p {
+    font-size: 1.3rem;
+  }
+
+  /* ===== TESTIMONIALS ===== */
+  .testimonials-marquee-section {
+    padding: 4rem 0;
+  }
+
+  .testimonials-header h2 {
+    font-size: 2.8rem;
+  }
+
+  .testimonial-card {
+    width: 300px;
+    padding: 2rem;
+  }
+
+  .testimonial-card i {
+    font-size: 2rem;
+  }
+
+  .metric .value {
+    font-size: 2.6rem;
+  }
+
+  .metric .label {
+    font-size: 1.2rem;
+  }
+
+  .testimonial-card p {
+    font-size: 1.4rem;
+  }
+
+  .author strong {
+    font-size: 1.3rem;
+  }
+
+  /* ===== SOLUTIONS SECTION ===== */
+  .solutions-section {
+    padding: 6rem 0;
+  }
+
+  .solutions-container {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    padding: 0 1.5rem;
+  }
+
+  .solutions-title {
+    font-size: 3.2rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .solutions-block {
+    padding: 2rem;
+  }
+
+  .solutions-block h4 {
+    font-size: 1.6rem;
+  }
+
+  .solutions-block p {
+    font-size: 1.3rem;
+  }
+
+  .solutions-flow {
+    max-width: 100%;
+    padding: 2.4rem;
+  }
+
+  .flow-card {
+    padding: 1.4rem 1.6rem;
+  }
+
+  .flow-card i {
+    font-size: 1.8rem;
+  }
+
+  .flow-card span {
+    font-size: 1.3rem;
+  }
+
+  /* ===== ARSENAL SECTION ===== */
+  .arsenal-section {
+    padding: 6rem 0;
+  }
+
+  .arsenal-header {
+    margin-bottom: 4rem;
+  }
+
+  .arsenal-title {
+    font-size: 3.4rem;
+  }
+
+  .arsenal-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .arsenal-core {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+    margin-bottom: 3rem;
+  }
+
+  .arsenal-item {
+    flex-direction: column;
+    padding: 2.4rem;
+    gap: 1.6rem;
+  }
+
+  .item-content h3 {
+    font-size: 2rem;
+  }
+
+  .item-content p {
+    font-size: 1.4rem;
+  }
+
+  .arsenal-split {
+    gap: 2rem;
+  }
+
+  .arsenal-execution {
+    flex-direction: column;
+    padding: 2.8rem 2.4rem;
+    text-align: center;
+  }
+
+  .execution-left {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .execution-left h3 {
+    font-size: 2rem;
+  }
+
+  .execution-left p {
+    font-size: 1.3rem;
+  }
+
+  .execution-cta {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* ===== FAQ SECTION ===== */
+  .faq-section {
+    padding: 6rem 0;
+  }
+
+  .faq-header {
+    margin-bottom: 3.6rem;
+  }
+
+  .faq-title {
+    font-size: 3.2rem;
+  }
+
+  .faq-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .faq-item summary {
+    padding: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .faq-item summary i {
+    font-size: 1.8rem;
+  }
+
+  .faq-content {
+    padding: 0 2rem 2rem;
+  }
+
+  .faq-content p {
+    font-size: 1.4rem;
+  }
+
+  /* ===== CONTACT SECTION ===== */
+  .contact-section {
+    padding: 6rem 0;
+  }
+
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    padding: 0 1.5rem;
+  }
+
+  .contact-pill {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact-title {
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact-text {
+    font-size: 1.4rem;
+  }
+
+  .contact-form {
+    padding: 2.8rem 2.4rem;
+  }
+
+  .form-group input,
+  .form-group select {
+    padding: 1.1rem 1.3rem;
+    font-size: 1.3rem;
+  }
+
+  .form-submit {
+    padding: 1.3rem;
+    font-size: 1.4rem;
+  }
+
+  /* ===== CTA SECTION ===== */
+  .cta-section {
+    padding: 6rem 0;
+  }
+
+  .cta-inner {
+    padding: 4rem 2.4rem;
+    border-radius: 32px;
+  }
+
+  .cta-title {
+    font-size: 3rem;
+  }
+
+  .cta-form {
+    flex-direction: column;
+    padding: 0.6rem;
+  }
+
+  .cta-form input {
+    padding: 1.2rem 1.4rem;
+    font-size: 1.5rem;
+  }
+
+  .cta-form button {
+    width: 100%;
+    padding: 1.2rem;
+  }
+
+  /* ===== FOOTER ===== */
+  .site-footer {
+    padding: 6rem 0 3rem;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    padding: 0 1.5rem;
+  }
+
+  .brand-icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .brand-name {
+    font-size: 1.6rem;
+  }
+
+  .brand-description {
+    font-size: 1.4rem;
+  }
+
+  .footer-links h4 {
+    font-size: 1.2rem;
+  }
+
+  .footer-links a {
+    font-size: 1.4rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 1.6rem;
+    text-align: center;
+    margin-top: 4rem;
+  }
+
+  /* ===== ABOUT SECTION ===== */
+  .about-section {
+    padding: 6rem 0;
+  }
+
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    padding: 0 1.5rem;
+  }
+
+  .about-hero-section {
+    padding: 6rem 1.5rem 5rem;
+  }
+
+  .about-hero-title {
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-hero-description {
+    font-size: 1.4rem;
+  }
+
+  .about-metrics-section {
+    padding: 6rem 1.5rem;
+  }
+
+  .about-metrics-inner {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding: 3rem 2rem;
+  }
+
+  .metrics-title {
+    font-size: 3rem;
+  }
+
+  .metrics-description {
+    font-size: 1.4rem;
+  }
+
+  .metrics-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .metric-item h3 {
+    font-size: 2.8rem;
+  }
+
+  .about-title {
+    font-size: 3.2rem;
+  }
+
+  .about-description {
+    font-size: 1.4rem;
+  }
+
+  .value-item h4 {
+    font-size: 1.5rem;
+  }
+
+  .value-item p {
+    font-size: 1.3rem;
+  }
+
+  /* ===== MARKET MARQUEE ===== */
+  .market-marquee {
+    padding: 2rem 0;
+  }
+
+  .marquee-header {
+    font-size: 1.2rem;
+    margin-bottom: 1.4rem;
+  }
+
+  /* ===== PARTNERS MARQUEE ===== */
+  .partners-marquee {
+    padding: 3.6rem 0;
+  }
+
+  .marquee-group {
+    gap: 3.2rem;
+    padding-right: 3.2rem;
+  }
+
+  .marquee-group img {
+    height: 28px;
+  }
+
+  /* ===== HIDE DECORATIVE ELEMENTS ON MOBILE ===== */
+  .floating-stat-card,
+  .mentorship-floating-cards,
+  .fade-left,
+  .fade-right {
+    display: none;
+  }
+}
+
+/* =========================================================
+   TABLET PORTRAIT (min-width: 481px) AND (max-width: 768px)
+========================================================= */
+@media (min-width: 481px) and (max-width: 768px) {
+  
+  /* ===== HEADER ===== */
+  .logo img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .logo-title {
+    font-size: 1.3rem;
+  }
+
+  /* ===== MOBILE NAV ===== */
+  .mobile-nav a {
+    font-size: 2.6rem;
+  }
+
+  .mobile-nav .btn-cta {
+    font-size: 1.7rem;
+  }
+
+  /* ===== HERO ===== */
+  .split-hero {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .hero-left {
+    padding: 5rem 3rem;
+  }
+
+  .hero-right {
+    height: 60vh;
+  }
+
+  /* ===== MENTORSHIP HERO ===== */
+  .mentorship-hero {
+    padding: 10rem 3rem 8rem;
+  }
+
+  .mentorship-actions {
+    flex-direction: row;
+  }
+
+  .mentorship-actions .btn {
+    width: auto;
+  }
+
+  /* Show some floating cards on tablet */
+  .floating-stat-card:nth-child(1),
+  .floating-stat-card:nth-child(2) {
+    display: block;
+  }
+
+  .floating-stat-card:nth-child(3),
+  .floating-stat-card:nth-child(4) {
+    display: none;
+  }
+
+  /* ===== PRICING CARD ===== */
+  .pricing-card {
+    grid-template-columns: 1fr;
+    padding: 3.6rem 3rem;
+  }
+
+  .pricing-graphic {
+    min-height: 400px;
+  }
+
+  /* ===== SOLUTIONS SHOWCASE ===== */
+  .solutions-showcase-container {
+    grid-template-columns: 1fr;
+  }
+
+  /* ===== SECURITY SECTION ===== */
+  .security-section {
+    grid-template-columns: 1fr;
+  }
+
+  .security-content {
+    padding: 5rem 3rem;
+  }
+
+  /* ===== CONTACT ===== */
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  /* ===== FOOTER ===== */
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+
+  .footer-bottom {
+    flex-direction: row;
+  }
+}
+
+/* =========================================================
+   TABLET LANDSCAPE / SMALL DESKTOP (min-width: 769px) AND (max-width: 1024px)
+========================================================= */
+@media (min-width: 769px) and (max-width: 1024px) {
+  
+  /* ===== HEADER ===== */
+  .nav {
+    gap: 2rem;
+  }
+
+  .nav-link {
+    font-size: 1.4rem;
+  }
+
+  /* Desktop nav visible, hide hamburger */
+  .hamburger {
+    display: none;
+  }
+
+  .desktop-only {
+    display: inline-flex;
+  }
+
+  /* ===== HERO ===== */
+  .split-hero {
+    grid-template-columns: 55% 45%;
+  }
+
+  .hero-left {
+    padding: 5rem;
+  }
+
+  /* ===== MENTORSHIP HERO ===== */
+  .floating-stat-card {
+    display: block;
+  }
+
+  /* ===== PRICING CARD ===== */
+  .pricing-card {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-graphic {
+    min-height: 420px;
+  }
+
+  /* ===== SOLUTIONS SHOWCASE ===== */
+  .solutions-showcase-container {
+    gap: 4rem;
+  }
+
+  /* ===== SECURITY SECTION ===== */
+  .security-section {
+    grid-template-columns: 40% 60%;
+  }
+
+  .security-content {
+    padding: 6rem;
+  }
+
+  /* ===== ARSENAL ===== */
+  .arsenal-core {
+    grid-template-columns: 1fr;
+  }
+
+  /* ===== CONTACT ===== */
+  .contact-container {
+    gap: 4rem;
+  }
+
+  /* ===== FOOTER ===== */
+  .footer-container {
+    grid-template-columns: 1.5fr 1fr 1fr;
+  }
+}
+
+/* =========================================================
+   MEDIUM DESKTOP (min-width: 1025px) AND (max-width: 1280px)
+========================================================= */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* ===== PRICING CARD ===== */
+  .pricing-card {
+    grid-template-columns: 1fr 280px;
+    gap: 3rem;
+  }
+
+  .pricing-graphic {
+    min-height: 480px;
+  }
+
+  /* ===== SOLUTIONS SHOWCASE ===== */
+  .solutions-showcase-container {
+    gap: 5rem;
+  }
+
+  /* ===== ARSENAL CORE ===== */
+  .arsenal-core {
+    grid-template-columns: 1.8fr 1fr;
+  }
+}
+
+/* =========================================================
+   LARGE DESKTOP (min-width: 1281px) AND (max-width: 1440px)
+========================================================= */
+@media (min-width: 1281px) and (max-width: 1440px) {
+  
+  /* ===== PRICING CARD ===== */
+  .pricing-card {
+    grid-template-columns: 1fr 320px;
+  }
+
+  /* Optimal layout - default styles work well */
+}
+
+/* =========================================================
+   EXTRA LARGE DESKTOP (min-width: 1441px)
+========================================================= */
+@media (min-width: 1441px) {
+  
+  /* ===== CONTAINER EXPANSION ===== */
+  .header-container,
+  .pricing-container,
+  .solutions-showcase-container,
+  .arsenal-container,
+  .contact-container,
+  .footer-container {
+    max-width: 1600px;
+  }
+
+  /* ===== PRICING CARD ===== */
+  .pricing-card {
+    grid-template-columns: 1fr 360px;
+    gap: 5rem;
+  }
+
+  .pricing-graphic {
+    min-height: 540px;
+  }
+
+  /* ===== HERO ===== */
+  .hero-text h1 {
+    font-size: 6.4rem;
+  }
+
+  /* ===== MENTORSHIP HERO ===== */
+  .mentorship-title {
+    font-size: 7.2rem;
+  }
+
+  .floating-stat-card {
+    padding: 2rem 2.4rem;
+  }
+
+  .floating-stat-card .stat-value {
+    font-size: 2.8rem;
+  }
+}
+
+/* =========================================================
+   ULTRA WIDE (min-width: 1920px)
+========================================================= */
+@media (min-width: 1920px) {
+  
+  .header-container,
+  .pricing-container,
+  .solutions-showcase-container,
+  .arsenal-container,
+  .contact-container,
+  .footer-container {
+    max-width: 1800px;
+  }
+
+  html {
+    font-size: 11px; /* Slightly larger for ultra-wide */
+  }
+}
+
+/* =========================================================
+   LANDSCAPE ORIENTATION ADJUSTMENTS
+========================================================= */
+@media (max-height: 600px) and (orientation: landscape) {
+  
+  .split-hero {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .hero-left {
+    padding: 3rem;
+  }
+
+  .mentorship-hero {
+    padding: 6rem 2rem 5rem;
+  }
+
+  .security-section {
+    height: auto;
+  }
+
+  .floating-stat-card {
+    display: none;
+  }
+}
+
+/* =========================================================
+   ACCESSIBILITY - REDUCED MOTION
+========================================================= */
+@media (prefers-reduced-motion: reduce) {
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .floating-stat-card,
+  .glass-card,
+  .mentorship-hero::before,
+  .mentorship-hero::after,
+  .mentorship-hero-grid,
+  .security-rings,
+  .testimonials-track,
+  .marquee-track {
+    animation: none !important;
+  }
+
+  .reveal-left,
+  .reveal-right,
+  .reveal-text,
+  .reveal-value,
+  .reveal-card,
+  .reveal-media {
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}
+
+/* =========================================================
+   PRINT STYLES
+========================================================= */
+@media print {
+  
+  .header,
+  .hamburger,
+  .mobile-nav,
+  .hero-nav,
+  .floating-cards,
+  .floating-stat-card,
+  .cta-section,
+  .footer-socials,
+  .btn {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff;
+    color: #000000;
+  }
+
+  .split-hero,
+  .security-section,
+  .solutions-showcase-container,
+  .about-container,
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-card {
+    grid-template-columns: 1fr;
+    break-inside: avoid;
+  }
+
+  a {
+    text-decoration: underline;
+    color: #000000;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+  }
+}
+
+/* =========================================================
+   HOVER DEVICE OPTIMIZATION
+========================================================= */
+@media (hover: hover) and (pointer: fine) {
+  
+  /* Enable all hover effects */
+  .btn:hover,
+  .nav-link:hover,
+  .solution-item:hover,
+  .testimonial-card:hover,
+  .pricing-card:hover,
+  .arsenal-item:hover {
+    /* Hover states already defined in main CSS */
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  
+  /* Disable hover effects on touch devices */
+  .btn:hover,
+  .nav-link:hover,
+  .solution-item:hover,
+  .testimonial-card:hover {
+    transform: none;
+  }
+
+  /* Use active states instead */
+  .btn:active {
+    transform: scale(0.98);
+  }
+
+  .solution-item:active {
+    background: #1f3c88;
+    border-color: transparent;
+  }
+}
+
+/* =========================================================
+   HIGH CONTRAST MODE
+========================================================= */
+@media (prefers-contrast: high) {
+  
+  :root {
+    --color-primary: #9d3fff;
+    --color-bg: #000000;
+    --color-text: #ffffff;
+    --color-border: rgba(255, 255, 255, 0.3);
+  }
+
+  .btn,
+  .pricing-card,
+  .solution-item,
+  .arsenal-item {
+    border-width: 2px;
+  }
+
+  .pricing-graphic,
+  .info-scale-inner {
+    border: 2px solid #ffffff;
+  }
+}
+
+/* =========================================================
+   DARK MODE SUPPORT (if implemented)
+========================================================= */
+@media (prefers-color-scheme: dark) {
+  
+  /* Already using dark theme as default */
+  /* This section is for future light mode toggle */
+}
+@media (max-width: 900px) {
+  .nav {
+    display: none !important;
+  }
+  
+  .desktop-only {
+    display: none !important;
+  }
+  
+  .hamburger {
+    display: flex !important;
+  }
+}
+
+@media (min-width: 901px) {
+  .hamburger {
+    display: none !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .pricing1-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing1-card {
+    padding: 3.6rem 2.8rem;
+  }}

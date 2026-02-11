@@ -1,0 +1,58 @@
+# ----------------------------------------------------------------------
+# API Directory .htaccess – SIMPLIFIED VERSION
+# ----------------------------------------------------------------------
+
+Options -Indexes
+
+# ----------------------------------------------------------------------
+# Protect Sensitive Files
+# ----------------------------------------------------------------------
+
+# Only allow contact.php to be accessed directly via HTTP
+<FilesMatch "^(config\.php|email-templates\.php|test-smtp\.php)$">
+    <RequireAll>
+        Require all denied
+    </RequireAll>
+</FilesMatch>
+
+# Protect log files
+<FilesMatch "\.(log)$">
+    Require all denied
+</FilesMatch>
+
+# Block markdown and text files
+<FilesMatch "\.(md|txt)$">
+    Require all denied
+</FilesMatch>
+
+# ----------------------------------------------------------------------
+# CORS - Allow Dev and Production
+# ----------------------------------------------------------------------
+
+<IfModule mod_headers.c>
+    # Simple: Allow all origins (fine for dev, tighten in production)
+    Header always set Access-Control-Allow-Origin "*"
+    Header always set Access-Control-Allow-Methods "POST, OPTIONS"
+    Header always set Access-Control-Allow-Headers "Content-Type, Authorization, X-Requested-With"
+    Header always set Access-Control-Max-Age "3600"
+</IfModule>
+
+# ----------------------------------------------------------------------
+# OPTIONS Requests
+# ----------------------------------------------------------------------
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_METHOD} OPTIONS
+    RewriteRule ^(.*)$ $1 [R=200,L]
+</IfModule>
+
+# ----------------------------------------------------------------------
+# PHP Settings
+# ----------------------------------------------------------------------
+
+php_flag display_errors On
+php_flag log_errors On
+php_value max_execution_time 60
+php_value upload_max_filesize 5M
+php_value post_max_size 5M

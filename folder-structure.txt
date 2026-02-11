@@ -1,0 +1,616 @@
+Folder PATH listing
+Volume serial number is F60C-7284
+D:\MRWAYNE\WEB_DEV\AJ_TRADEHOUSE
+|   .hintrc
+|   .htaccess
+|   about.php
+|   composer.json
+|   composer.lock
+|   folder-structure.txt
+|   index.php
+|   mentorship.php
+|   pricing.php
+|   TROUBLESHOOTING_GUIDE.md
+|   
++---api
+|   |   .htaccess
+|   |   config.php
+|   |   contact.php
+|   |   email-templates.php
+|   |   test-smtp.php
+|   |   
+|   \---logs
+|           php_errors.log
+|           submissions.log
+|           
++---assets
+|   +---css
+|   |       responsive.css
+|   |       style.css
+|   |       
+|   +---favicon
+|   |       android-chrome-192x192.png
+|   |       android-chrome-512x512.png
+|   |       apple-touch-icon.png
+|   |       favicon-16x16.png
+|   |       favicon-32x32.png
+|   |       favicon.ico
+|   |       site.webmanifest
+|   |       
+|   +---fonts
+|   |       fa-brands-400.ttf
+|   |       fa-regular-400.ttf
+|   |       fa-solid-900.ttf
+|   |       suisseIntl-bold.ttf
+|   |       suisseIntl-medium.ttf
+|   |       suisseIntl-regular.ttf
+|   |       suisseIntl-semibold.ttf
+|   |       
+|   +---images
+|   |   |   404_error_image.webp
+|   |   |   app_store.webp
+|   |   |   google_play.webp
+|   |   |   
+|   |   +---about
+|   |   |       about_image_1.webp
+|   |   |       about_image_10.webp
+|   |   |       about_image_11.webp
+|   |   |       about_image_2.webp
+|   |   |       about_image_3.webp
+|   |   |       about_image_4.webp
+|   |   |       about_image_5.webp
+|   |   |       about_image_6.webp
+|   |   |       about_image_7.webp
+|   |   |       about_image_8.webp
+|   |   |       about_image_9.webp
+|   |   |       about_video_image_1.webp
+|   |   |       chart_image_1.webp
+|   |   |       faq_about_image.webp
+|   |   |       hand_image.webp
+|   |   |       integration_image_1.webp
+|   |   |       mac_image_1.webp
+|   |   |       mobile_app_image.webp
+|   |   |       transactions_card_image.webp
+|   |   |       transactions_card_image_2.webp
+|   |   |       
+|   |   +---avatar
+|   |   |       avatar_image_1.webp
+|   |   |       avatar_image_10.webp
+|   |   |       avatar_image_2.webp
+|   |   |       avatar_image_3.webp
+|   |   |       avatar_image_4.webp
+|   |   |       avatar_image_5.webp
+|   |   |       avatar_image_6.webp
+|   |   |       avatar_image_7.webp
+|   |   |       avatar_image_8.webp
+|   |   |       avatar_image_9.webp
+|   |   |       
+|   |   +---background
+|   |   |       bgimage.png
+|   |   |       forex1.avif
+|   |   |       forex2.avif
+|   |   |       IMG_1857.JPG.jpeg
+|   |   |       IMG_1858.JPG.jpeg
+|   |   |       IMG_1859.JPG.jpeg
+|   |   |       IMG_1860.JPG.jpeg
+|   |   |       IMG_1861.JPG.jpeg
+|   |   |       IMG_1862.JPG.jpeg
+|   |   |       IMG_3665.JPG.jpeg
+|   |   |       IMG_9483.DNG
+|   |   |       IMG_9483.png
+|   |   |       pc.avif
+|   |   |       phone1.avif
+|   |   |       
+|   |   +---backgrounds
+|   |   |       app_store_bg_1.webp
+|   |   |       background_image_1.webp
+|   |   |       footer_bg_1.webp
+|   |   |       hero_bg_1.webp
+|   |   |       hero_bg_noise.webp
+|   |   |       hero_bg_pattern_1.webp
+|   |   |       newslatter_bg_image_1.webp
+|   |   |       page_header_bg_1.webp
+|   |   |       
+|   |   +---blogs
+|   |   |       blog_details_image_1.webp
+|   |   |       blog_image_1.webp
+|   |   |       blog_image_10.webp
+|   |   |       blog_image_11.webp
+|   |   |       blog_image_12.webp
+|   |   |       blog_image_13.webp
+|   |   |       blog_image_14.webp
+|   |   |       blog_image_15.webp
+|   |   |       blog_image_16.webp
+|   |   |       blog_image_17.webp
+|   |   |       blog_image_18.webp
+|   |   |       blog_image_19.webp
+|   |   |       blog_image_2.webp
+|   |   |       blog_image_21.webp
+|   |   |       blog_image_3.webp
+|   |   |       blog_image_4.webp
+|   |   |       blog_image_5.webp
+|   |   |       blog_image_6.webp
+|   |   |       blog_image_7.webp
+|   |   |       blog_image_8.webp
+|   |   |       blog_image_9.webp
+|   |   |       recent_blog_post_image_1.webp
+|   |   |       recent_blog_post_image_2.webp
+|   |   |       recent_blog_post_image_3.webp
+|   |   |       
+|   |   +---clients
+|   |   |       brand_01.png
+|   |   |       brand_02.png
+|   |   |       brand_03.png
+|   |   |       brand_04.png
+|   |   |       brand_05.png
+|   |   |       brand_06.png
+|   |   |       brand_07.png
+|   |   |       brand_08.png
+|   |   |       brand_09.png
+|   |   |       brand_10.png
+|   |   |       client_logo_1.webp
+|   |   |       client_logo_10.webp
+|   |   |       client_logo_11.webp
+|   |   |       client_logo_12.webp
+|   |   |       client_logo_13.webp
+|   |   |       client_logo_14.webp
+|   |   |       client_logo_15.webp
+|   |   |       client_logo_16.webp
+|   |   |       client_logo_17.webp
+|   |   |       client_logo_18.webp
+|   |   |       client_logo_19.webp
+|   |   |       client_logo_2.webp
+|   |   |       client_logo_20.webp
+|   |   |       client_logo_21.webp
+|   |   |       client_logo_22.webp
+|   |   |       client_logo_23.webp
+|   |   |       client_logo_24.webp
+|   |   |       client_logo_25.webp
+|   |   |       client_logo_26.webp
+|   |   |       client_logo_27.webp
+|   |   |       client_logo_28.webp
+|   |   |       client_logo_29.webp
+|   |   |       client_logo_3.webp
+|   |   |       client_logo_30.webp
+|   |   |       client_logo_31.webp
+|   |   |       client_logo_32.webp
+|   |   |       client_logo_33.webp
+|   |   |       client_logo_34.webp
+|   |   |       client_logo_35.webp
+|   |   |       client_logo_36.webp
+|   |   |       client_logo_4.webp
+|   |   |       client_logo_5.webp
+|   |   |       client_logo_6.webp
+|   |   |       client_logo_7.webp
+|   |   |       client_logo_8.webp
+|   |   |       client_logo_9.webp
+|   |   |       
+|   |   +---features
+|   |   |       ob_feature_image_1.webp
+|   |   |       ob_feature_image_2.webp
+|   |   |       ob_feature_image_3.webp
+|   |   |       ob_feature_image_4.webp
+|   |   |       ob_feature_image_5.webp
+|   |   |       
+|   |   +---flags
+|   |   |       flag_bangladesh.webp
+|   |   |       flag_portugal.webp
+|   |   |       flag_saudi_arabia.webp
+|   |   |       flag_usa.webp
+|   |   |       
+|   |   +---hero
+|   |   |       car.png
+|   |   |       card.png
+|   |   |       hero_hand_image.png
+|   |   |       hero_hand_image_2.webp
+|   |   |       hero_image_1.webp
+|   |   |       hero_image_2.webp
+|   |   |       hero_image_3.webp
+|   |   |       hero_pattern.svg
+|   |   |       hero_shape_1.svg
+|   |   |       
+|   |   +---icons
+|   |   |       icon_api.svg
+|   |   |       icon_apple_pay.svg
+|   |   |       icon_bitcoin.svg
+|   |   |       icon_bookmark.svg
+|   |   |       icon_box.svg
+|   |   |       icon_briefcase.svg
+|   |   |       icon_browser.svg
+|   |   |       icon_building.svg
+|   |   |       icon_bulb.svg
+|   |   |       icon_calendar.svg
+|   |   |       icon_calling.svg
+|   |   |       icon_calling_2.svg
+|   |   |       icon_calling_3.svg
+|   |   |       icon_calling_4.svg
+|   |   |       icon_calling_5.svg
+|   |   |       icon_calling_6.svg
+|   |   |       icon_calling_7.svg
+|   |   |       icon_car.svg
+|   |   |       icon_car_2.svg
+|   |   |       icon_chair.svg
+|   |   |       icon_chart.svg
+|   |   |       icon_chart_2.svg
+|   |   |       icon_chart_3.svg
+|   |   |       icon_chart_4.svg
+|   |   |       icon_chart_5.svg
+|   |   |       icon_chart_bar.svg
+|   |   |       icon_chart_bar_2.svg
+|   |   |       icon_chat.svg
+|   |   |       icon_chat_2.svg
+|   |   |       icon_check.svg
+|   |   |       icon_check_2.svg
+|   |   |       icon_check_3.svg
+|   |   |       icon_close.svg
+|   |   |       icon_cog.svg
+|   |   |       icon_color_swatch.svg
+|   |   |       icon_comment.svg
+|   |   |       icon_devices.svg
+|   |   |       icon_diamond.svg
+|   |   |       icon_discount.svg
+|   |   |       icon_doc.svg
+|   |   |       icon_doc_2.svg
+|   |   |       icon_dog.svg
+|   |   |       icon_dollar.svg
+|   |   |       icon_dollar_2.svg
+|   |   |       icon_dollar_3.svg
+|   |   |       icon_dollar_4.svg
+|   |   |       icon_dollar_5.svg
+|   |   |       icon_dollar_6.svg
+|   |   |       icon_dollar_bag.svg
+|   |   |       icon_email.svg
+|   |   |       icon_email_2.svg
+|   |   |       icon_email_3.svg
+|   |   |       icon_email_4.svg
+|   |   |       icon_eye.svg
+|   |   |       icon_face.svg
+|   |   |       icon_gadget.svg
+|   |   |       icon_global_search.svg
+|   |   |       icon_google_pay.svg
+|   |   |       icon_graduation_cap.svg
+|   |   |       icon_hand.svg
+|   |   |       icon_hand_2.svg
+|   |   |       icon_head.svg
+|   |   |       icon_headphone.svg
+|   |   |       icon_headphone_2.svg
+|   |   |       icon_heart.svg
+|   |   |       icon_home.svg
+|   |   |       icon_house.svg
+|   |   |       icon_link.svg
+|   |   |       icon_lock.svg
+|   |   |       icon_mail.svg
+|   |   |       icon_man.svg
+|   |   |       icon_map_mark.svg
+|   |   |       icon_maximize.svg
+|   |   |       icon_medal.svg
+|   |   |       icon_medal_2.svg
+|   |   |       icon_messages.svg
+|   |   |       icon_mobile_network.svg
+|   |   |       icon_money_bag.svg
+|   |   |       icon_odomitter.svg
+|   |   |       icon_overlap.svg
+|   |   |       icon_payment_card.svg
+|   |   |       icon_pay_24.svg
+|   |   |       icon_pen.svg
+|   |   |       icon_phone.svg
+|   |   |       icon_qr_code.svg
+|   |   |       icon_quote.svg
+|   |   |       icon_rectangle.svg
+|   |   |       icon_search.svg
+|   |   |       icon_search_2.svg
+|   |   |       icon_sms_edit.svg
+|   |   |       icon_star_1.svg
+|   |   |       icon_star_2.svg
+|   |   |       icon_star_3.svg
+|   |   |       icon_star_4.svg
+|   |   |       icon_support.svg
+|   |   |       icon_tag.svg
+|   |   |       icon_tag_2.svg
+|   |   |       icon_target.svg
+|   |   |       icon_trush_bin.svg
+|   |   |       icon_umbrella.svg
+|   |   |       icon_umbrella_2.svg
+|   |   |       icon_user.svg
+|   |   |       icon_users.svg
+|   |   |       icon_user_2.svg
+|   |   |       icon_visa.svg
+|   |   |       icon_wallet.svg
+|   |   |       icon_web_design.svg
+|   |   |       
+|   |   +---integrated
+|   |   |       integrated_logo_1.webp
+|   |   |       integrated_logo_10.webp
+|   |   |       integrated_logo_2.webp
+|   |   |       integrated_logo_3.webp
+|   |   |       integrated_logo_4.webp
+|   |   |       integrated_logo_5.webp
+|   |   |       integrated_logo_6.webp
+|   |   |       integrated_logo_7.webp
+|   |   |       integrated_logo_8.webp
+|   |   |       integrated_logo_9.webp
+|   |   |       
+|   |   +---logo
+|   |   |       2.png
+|   |   |       3.png
+|   |   |       AJ_Tradehouse logo 1.png
+|   |   |       AJ_Tradehouse logo 2.png
+|   |   |       AJ_Tradehouse logo 3.png
+|   |   |       AJ_Tradehouse logo icon whyte.png
+|   |   |       AJ_Tradehouse logo icon.png
+|   |   |       assexxlogo-removebg-preview.png
+|   |   |       exness.png
+|   |   |       hantec.png
+|   |   |       hantec2.png
+|   |   |       logo.svg
+|   |   |       Richie Forex academy blk.png
+|   |   |       Richie Forex academy logo icon.png
+|   |   |       Richie Forex academy.png
+|   |   |       
+|   |   +---policy
+|   |   |       policy_image_1.webp
+|   |   |       policy_image_2.webp
+|   |   |       policy_image_3.webp
+|   |   |       
+|   |   +---projects
+|   |   |       project_details_image_1.webp
+|   |   |       project_image_1.webp
+|   |   |       project_image_10.webp
+|   |   |       project_image_11.webp
+|   |   |       project_image_2.webp
+|   |   |       project_image_3.webp
+|   |   |       project_image_4.webp
+|   |   |       project_image_5.webp
+|   |   |       project_image_6.webp
+|   |   |       project_image_7.webp
+|   |   |       project_image_8.webp
+|   |   |       project_image_9.webp
+|   |   |       
+|   |   +---services
+|   |   |       service_details_image_1.webp
+|   |   |       
+|   |   +---shapes
+|   |   |       breadcrumb_shape_pattern_1.svg
+|   |   |       breadcrumb_shape_pattern_2.svg
+|   |   |       btn_shape.webp
+|   |   |       funfact_bg_1.svg
+|   |   |       funfact_bg_2.svg
+|   |   |       funfact_bg_3.svg
+|   |   |       funfact_bg_4.svg
+|   |   |       process_line_shape_1.webp
+|   |   |       shape_1.webp
+|   |   |       shape_2.webp
+|   |   |       shape_3.webp
+|   |   |       shape_4.svg
+|   |   |       shape_arrow_1.webp
+|   |   |       shape_arrow_2.webp
+|   |   |       shape_arrow_3.webp
+|   |   |       shape_arrow_4.webp
+|   |   |       shape_car_path_1.png
+|   |   |       shape_car_path_2.webp
+|   |   |       shape_car_path_3.webp
+|   |   |       shape_car_path_4.webp
+|   |   |       shape_car_path_5.webp
+|   |   |       shape_circle.svg
+|   |   |       shape_circle_1.svg
+|   |   |       shape_circle_1.webp
+|   |   |       shape_circle_2.svg
+|   |   |       shape_circle_3.svg
+|   |   |       shape_coin_1.svg
+|   |   |       shape_dollar_1.webp
+|   |   |       shape_dollar_2.webp
+|   |   |       shape_dollar_3.webp
+|   |   |       shape_dollar_4.webp
+|   |   |       shape_dollar_5.webp
+|   |   |       shape_dollar_6.webp
+|   |   |       shape_finto.svg
+|   |   |       shape_line.svg
+|   |   |       shape_nate.svg
+|   |   |       shape_nate_10.svg
+|   |   |       shape_nate_11.svg
+|   |   |       shape_nate_13.svg
+|   |   |       shape_nate_14.svg
+|   |   |       shape_nate_15.svg
+|   |   |       shape_nate_16.svg
+|   |   |       shape_nate_17.svg
+|   |   |       shape_nate_18.svg
+|   |   |       shape_nate_19.svg
+|   |   |       shape_nate_2.svg
+|   |   |       shape_nate_20.svg
+|   |   |       shape_nate_21.svg
+|   |   |       shape_nate_22.svg
+|   |   |       shape_nate_23.svg
+|   |   |       shape_nate_24.svg
+|   |   |       shape_nate_25.svg
+|   |   |       shape_nate_26.svg
+|   |   |       shape_nate_27.svg
+|   |   |       shape_nate_28.svg
+|   |   |       shape_nate_29.svg
+|   |   |       shape_nate_3.svg
+|   |   |       shape_nate_30.svg
+|   |   |       shape_nate_31.svg
+|   |   |       shape_nate_32.svg
+|   |   |       shape_nate_33.svg
+|   |   |       shape_nate_34.svg
+|   |   |       shape_nate_35.svg
+|   |   |       shape_nate_36.svg
+|   |   |       shape_nate_37.svg
+|   |   |       shape_nate_38.svg
+|   |   |       shape_nate_39.svg
+|   |   |       shape_nate_4.svg
+|   |   |       shape_nate_40.svg
+|   |   |       shape_nate_5.svg
+|   |   |       shape_nate_6.svg
+|   |   |       shape_nate_7.svg
+|   |   |       shape_nate_8.svg
+|   |   |       shape_nate_9.svg
+|   |   |       shape_note_1.svg
+|   |   |       shape_note_2.svg
+|   |   |       shape_pattern_1.svg
+|   |   |       shape_pattern_2.svg
+|   |   |       shape_pattern_3.svg
+|   |   |       shape_pattern_4.svg
+|   |   |       shape_pattern_5.svg
+|   |   |       shape_pattern_6.svg
+|   |   |       shape_pattern_7.svg
+|   |   |       shape_percent_1.svg
+|   |   |       
+|   |   +---site_logo
+|   |   |       favourite_icon.webp
+|   |   |       favourite_icon_2.svg
+|   |   |       favourite_icon_3.svg
+|   |   |       ins_favicon.png
+|   |   |       is_logo.svg
+|   |   |       site_logo_black.svg
+|   |   |       site_logo_black_2.svg
+|   |   |       site_logo_black_3.svg
+|   |   |       site_logo_white.svg
+|   |   |       site_logo_white_2.svg
+|   |   |       
+|   |   \---team
+|   |           team_member_image_1.webp
+|   |           team_member_image_10.webp
+|   |           team_member_image_11.webp
+|   |           team_member_image_12.webp
+|   |           team_member_image_13.webp
+|   |           team_member_image_14.webp
+|   |           team_member_image_2.webp
+|   |           team_member_image_3.webp
+|   |           team_member_image_4.webp
+|   |           team_member_image_5.webp
+|   |           team_member_image_6.webp
+|   |           team_member_image_7.webp
+|   |           team_member_image_8.webp
+|   |           team_member_image_9.webp
+|   |           
+|   +---js
+|   |       main.js
+|   |       spa.js
+|   |       
+|   \---vendor
+|       +---css
+|       |       animate.min.css
+|       |       bootstrap.min.css
+|       |       fontawesome.css
+|       |       magnific-popup.min.css
+|       |       odometer.min.css
+|       |       style.css
+|       |       swiper-bundle.min.css
+|       |       
+|       \---js
+|               appear.min.js
+|               bootstrap-dropdown-ml-hack.min.js
+|               bootstrap.min.js
+|               jquery.min.js
+|               magnific-popup.min.js
+|               main.js
+|               odometer.min.js
+|               parallax-scroll.js
+|               parallaxie.js
+|               popper.min.js
+|               swiper-bundle.min.js
+|               ticker.min.js
+|               wow.min.js
+|               
++---includes
+|       footer.php
+|       head.php
+|       header.php
+|       template-css.php
+|       template-js.php
+|       
+\---vendor
+    |   autoload.php
+    |   
+    +---composer
+    |       autoload_classmap.php
+    |       autoload_namespaces.php
+    |       autoload_psr4.php
+    |       autoload_real.php
+    |       autoload_static.php
+    |       ClassLoader.php
+    |       installed.json
+    |       installed.php
+    |       InstalledVersions.php
+    |       LICENSE
+    |       platform_check.php
+    |       
+    \---phpmailer
+        \---phpmailer
+            |   COMMITMENT
+            |   composer.json
+            |   get_oauth_token.php
+            |   LICENSE
+            |   README.md
+            |   SECURITY.md
+            |   SMTPUTF8.md
+            |   VERSION
+            |   
+            +---language
+            |       phpmailer.lang-af.php
+            |       phpmailer.lang-ar.php
+            |       phpmailer.lang-as.php
+            |       phpmailer.lang-az.php
+            |       phpmailer.lang-ba.php
+            |       phpmailer.lang-be.php
+            |       phpmailer.lang-bg.php
+            |       phpmailer.lang-bn.php
+            |       phpmailer.lang-ca.php
+            |       phpmailer.lang-cs.php
+            |       phpmailer.lang-da.php
+            |       phpmailer.lang-de.php
+            |       phpmailer.lang-el.php
+            |       phpmailer.lang-eo.php
+            |       phpmailer.lang-es.php
+            |       phpmailer.lang-et.php
+            |       phpmailer.lang-fa.php
+            |       phpmailer.lang-fi.php
+            |       phpmailer.lang-fo.php
+            |       phpmailer.lang-fr.php
+            |       phpmailer.lang-gl.php
+            |       phpmailer.lang-he.php
+            |       phpmailer.lang-hi.php
+            |       phpmailer.lang-hr.php
+            |       phpmailer.lang-hu.php
+            |       phpmailer.lang-hy.php
+            |       phpmailer.lang-id.php
+            |       phpmailer.lang-it.php
+            |       phpmailer.lang-ja.php
+            |       phpmailer.lang-ka.php
+            |       phpmailer.lang-ko.php
+            |       phpmailer.lang-ku.php
+            |       phpmailer.lang-lt.php
+            |       phpmailer.lang-lv.php
+            |       phpmailer.lang-mg.php
+            |       phpmailer.lang-mn.php
+            |       phpmailer.lang-ms.php
+            |       phpmailer.lang-nb.php
+            |       phpmailer.lang-nl.php
+            |       phpmailer.lang-pl.php
+            |       phpmailer.lang-pt.php
+            |       phpmailer.lang-pt_br.php
+            |       phpmailer.lang-ro.php
+            |       phpmailer.lang-ru.php
+            |       phpmailer.lang-si.php
+            |       phpmailer.lang-sk.php
+            |       phpmailer.lang-sl.php
+            |       phpmailer.lang-sr.php
+            |       phpmailer.lang-sr_latn.php
+            |       phpmailer.lang-sv.php
+            |       phpmailer.lang-tl.php
+            |       phpmailer.lang-tr.php
+            |       phpmailer.lang-uk.php
+            |       phpmailer.lang-ur.php
+            |       phpmailer.lang-vi.php
+            |       phpmailer.lang-zh.php
+            |       phpmailer.lang-zh_cn.php
+            |       
+            \---src
+                    DSNConfigurator.php
+                    Exception.php
+                    OAuth.php
+                    OAuthTokenProvider.php
+                    PHPMailer.php
+                    POP3.php
+                    SMTP.php
+                    

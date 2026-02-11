@@ -1,0 +1,25 @@
+ # ========================================
+# AJ Tradehouse Clean URL Routing
+# ========================================
+
+RewriteEngine On
+Options -Indexes
+
+RewriteRule ^vendor/ - [F,L]
+RewriteRule ^includes/ - [F,L]
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/]+)/?$ $1.php [L]
+
+
+
+# ----------------------------------------
+# Force HTTPS (Enable on live server only)
+# ----------------------------------------
+# RewriteCond %{HTTPS} off
+# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
