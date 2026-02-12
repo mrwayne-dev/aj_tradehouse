@@ -1,48 +1,10 @@
 <?php
-$pageTitle = 'AJ Tradehouse Forex Academy';
+$pageTitle = 'AJ Tradehouse Forex Academy | Contact';
 $useTemplateAssets = true; 
 ?>
 <?php require_once './includes/header.php'; ?>
 
-
-        <!-- Page Header - Start
-        ================================================== -->
-        <section class="page_header text-center bg-dark section_decoration overflow-hidden" style="background-image: url('assets/images/backgrounds/page_header_bg_1.webp');">
-          <div class="container">
-            <h1 class="page_title text-white">Contact Us</h1>
-            <ul class="breadcrumb_nav unordered_list justify-content-center">
-              <li><a href="index.html">Home</a></li>
-              <li class="active"><a href="contact.html#!">Contact Us</a></li>
-            </ul>
-          </div>
-          <div class="decoration_item shape_nate">
-            <img src="assets/images/shapes/shape_nate.svg" alt="Shape Nate">
-          </div>
-          <div class="decoration_item shape_dollar_1 wow fadeInUp" data-wow-delay=".2s">
-            <img src="assets/images/shapes/shape_dollar_1.webp"  data-parallax='{"y" : 100, "smoothness": 10}' alt="Shape Dollar">
-          </div>
-          <div class="decoration_item shape_dollar_2 wow fadeInUp" data-wow-delay=".2s">
-            <img src="assets/images/shapes/shape_dollar_2.webp" data-parallax='{"y" : 100, "smoothness": 10}' alt="Shape Dollar">
-          </div>
-          <div class="decoration_item shape_dollar_3 wow fadeInUp" data-wow-delay=".3s">
-            <img src="assets/images/shapes/shape_dollar_3.webp" data-parallax='{"y" : -100, "smoothness": 10}' alt="Shape Dollar">
-          </div>
-          <div class="decoration_item shape_dollar_4 wow fadeInUp" data-wow-delay=".3s">
-            <img src="assets/images/shapes/shape_dollar_4.webp" data-parallax='{"y" : -100, "smoothness": 10}' alt="Shape Dollar">
-          </div>
-          <div class="decoration_item shape_pattern_1">
-            <img src="assets/images/shapes/breadcrumb_shape_pattern_1.svg" alt="Shape Pattern">
-          </div>
-          <div class="decoration_item shape_pattern_2">
-            <img src="assets/images/shapes/breadcrumb_shape_pattern_2.svg" alt="Shape Pattern">
-          </div>
-        </section>
-        <!-- Page Header - End
-        ================================================== -->
-
-        <!-- Contact Section - Start
-        ================================================== -->
-        <section class="contact_section section_space bg-light">
+<section class="contact_section section_space bg-light">
           <div class="container">
             <div class="row">
               <div class="col-lg-8">
@@ -146,8 +108,6 @@ $useTemplateAssets = true;
               </div>
             </div>
           </div>
-        </section>
-
-
+</section>
 
 <?php require_once './includes/footer.php'; ?>
