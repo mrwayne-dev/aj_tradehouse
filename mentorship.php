@@ -31,8 +31,8 @@ $useTemplateAssets = true;
 
         <ul class="btns_group unordered_list_block p-0">
           <li class="wow fadeInLeft" data-wow-delay=".5s">
-            <a class="btn btn-main bg-primary" href="/apply">
-              <span class="btn_label" style="color: var(--bs-white);">
+            <a class="btn btn-main bg-primary" href="#apply">
+              <span class="btn_label" style="color: var(--bs-white);" href>
                 Apply for Mentorship
               </span>
             </a>
@@ -55,18 +55,17 @@ $useTemplateAssets = true;
               </h4>
             </div>
           </li>
-          
-          <li class="wow fadeInRight" data-wow-delay=".5s">
+
+           <li class="wow fadeInRight" data-wow-delay=".6s">
             <div class="funfact_block">
               <div class="funfact_value">
-                <span class="odometer" data-count="150">0</span>
+                <span class="odometer" data-count="500">0</span>
                 <span>+</span>
               </div>
               <h4 class="funfact_title mb-0">
-                Active Students
+                Mentorship Graduates
               </h4>
             </div>
-          </li>
 
           <li class="wow fadeInRight" data-wow-delay=".6s">
             <div class="funfact_block">
@@ -93,23 +92,6 @@ $useTemplateAssets = true;
     </div>
   </div>
 
-  <!-- Decorations -->
-  <div class="decoration_item shape_pattern_1">
-    <img src="assets/images/shapes/shape_pattern_1.svg" alt="Shape Pattern">
-  </div>
-
-  <div class="decoration_item shape_pattern_2">
-    <img src="assets/images/shapes/shape_pattern_2.svg" alt="Shape Pattern">
-  </div>
-
-  <div class="decoration_item shape_nate_1">
-    <img src="assets/images/shapes/shape_nate_14.svg" alt="Shape Nate">
-  </div>
-
-  <div class="decoration_item shape_nate_2">
-    <img src="assets/images/shapes/shape_nate_15.svg" alt="Shape Nate">
-  </div>
-
 </section>
 
 
@@ -122,7 +104,7 @@ $useTemplateAssets = true;
           <div class="badge text-uppercase text-primary bg-primary-subtle">
             Our Expertise
           </div>
-          <h2 class="heading_text mb-0">
+          <h2 class="heading_text text-dark mb-0">
             Built on Structure. Refined by Experience.
           </h2>
         </div>
@@ -239,7 +221,7 @@ $useTemplateAssets = true;
       <!-- Right Image -->
       <div class="col-lg-5">
         <div class="powering_industry_image">
-          <img src="assets/images/about/transactions_card_image_2.webp"
+          <img src="assets/images/about/expertise.png"
                alt="Trading Analysis Dashboard">
         </div>
       </div>
@@ -249,11 +231,11 @@ $useTemplateAssets = true;
 </section>
 
 
-<section class="pricing_section section_space">
+<section class="pricing_section section_space" id="apply">
   <div class="container">
     <div class="heading_block style_2 text-center">
       <div class="badge text-uppercase text-primary bg-primary-subtle">Mentorship Plans</div>
-      <h2 class="heading_text mb-0">
+      <h2 class="heading_text text-dark mb-0">
         Invest in Skill. Not Hype.
       </h2>
     </div>
@@ -304,7 +286,7 @@ $useTemplateAssets = true;
               </li>
             </ul>
 
-            <a class="btn bg-primary btn-rounded" href="/apply">
+            <a class="btn bg-primary btn-rounded" href="#" data-payment-modal data-plan="Lifetime Mentorship" data-price="$1000">
               <span class="btn_label">Apply for Mentorship</span>
               <span class="btn_icon">
                 <i class="ph ph-arrow-up-right"></i>
@@ -371,7 +353,7 @@ $useTemplateAssets = true;
               </li>
             </ul>
 
-            <a class="btn bg-primary btn-rounded" href="/apply-signals">
+            <a class="btn bg-primary btn-rounded" href="#" data-payment-modal data-plan="Trade Signal Channel" data-price="$500">
               <span class="btn_label">Join Signal Channel</span>
               <span class="btn_icon">
                 <i class="ph ph-arrow-up-right"></i>
@@ -409,5 +391,5 @@ $useTemplateAssets = true;
 
 
 
-
+<?php include 'includes/payment-modal.php'; ?>
 <?php require_once './includes/footer.php'; ?>

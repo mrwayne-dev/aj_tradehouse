@@ -38,7 +38,7 @@ include "template-css.php";
                 <ul class="btns_group p-0 unordered_list justify-content-end">
                   <li>
                     <button class="mobile_menu_btn" type="button" data-bs-toggle="collapse" data-bs-target="#main_menu_dropdown" aria-expanded="false" aria-label="Toggle navigation">
-                      <i class="far fa-bars"></i>
+                      <i class="ph ph-list"></i>
                     </button>
                   </li>
                   <li>

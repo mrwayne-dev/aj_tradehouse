@@ -43,9 +43,9 @@
         <div class="col-lg-3 col-md-6 col-sm-6">
           <h3 class="footer_info_title">Our Focus</h3>
           <ul class="iconlist_block unordered_list_block mb-0">
-            <li><span class="iconlist_text">Market Structure</span></li>
-            <li><span class="iconlist_text">Liquidity Concepts</span></li>
-            <li><span class="iconlist_text">Risk Management</span></li>
+            <li><span class="iconlist_text text-white">Market Structure</span></li>
+            <li><span class="iconlist_text text-white">Liquidity Concepts</span></li>
+            <li><span class="iconlist_text text-white">Risk Management</span></li>
           </ul>
         </div>
 
@@ -102,10 +102,10 @@
 
 <!-- FLOATING WHATSAPP BUTTON -->
 <a
-  href="https://api.whatsapp.com/send/?phone=2348161262960&text=Hello+Richie+Forex+Trading+Academy%2C+I%27m+interested+in+your+mentorship"
+  href="https://api.whatsapp.com/send/?phone=2348135719117&text=Hello+AJ+Tradehouse+Trading+Academy%2C+I%27m+interested+in+your+mentorship"
   class="whatsapp-float"
   target="_blank"
-  aria-label="Chat with Richie Forex Academy on WhatsApp"
+  aria-label="Chat with AJ Tradehouse Trading Academy on WhatsApp"
 >
   <i class="ph ph-whatsapp-logo"></i>
 </a>

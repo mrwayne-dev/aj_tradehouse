@@ -451,7 +451,7 @@ mark {
   font-weight: 500;
   line-height: 30px;
   align-items: flex-start; 
-  color: white;}
+  color: var(--bs-dark);}
 
 .iconlist_block a {
   gap: 12px;
@@ -721,7 +721,7 @@ mark {
     line-height: 60px;
     margin-bottom: 24px;
     letter-spacing: -0.5px; 
-    color: var(--bs-dark);}
+    color: var(--bs-white);}
   .heading_block .subtitle_text {
     line-height: 1;
     font-size: 18px;
@@ -734,7 +734,8 @@ mark {
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
-    letter-spacing: -0.2px; }
+    letter-spacing: -0.2px; 
+    color: var(--bs-dark);}
   .heading_block .badge {
     margin-bottom: 19px; }
 
@@ -1755,7 +1756,7 @@ input[type=search]::-webkit-search-results-decoration {
   color: var(--bs-white);
   letter-spacing: -0.2px;
   justify-content: center;
-  background-color: #023436;
+  background-color: var(--bs-primary);
   border-radius: var(--bs-border-radius-sm); }
   .mobile_menu_btn:hover {
     color: var(--bs-heading-color);
@@ -4421,8 +4422,7 @@ input[type=search]::-webkit-search-results-decoration {
   .comment_form .btn[type=submit] {
     width: 100%;
     display: block;
-    padding: 21px 40px;
-    background: linear-gradient(45deg, #00F1B5, #D9FF43); }
+    padding: 21px 40px;}
     .comment_form .btn[type=submit]:before {
       background-color: var(--bs-primary); }
 
@@ -4639,9 +4639,11 @@ input[type=search]::-webkit-search-results-decoration {
   .contact_info_box .heading_text {
     line-height: 1;
     font-size: 24px;
-    margin-bottom: 38px; }
+    margin-bottom: 38px; 
+    color: var(--bs-dark);}
   .contact_info_box .iconlist_block {
-    margin-bottom: 38px; }
+    margin-bottom: 38px; 
+    color: var(--bs-dark);}
     .contact_info_box .iconlist_block .iconlist_icon img {
       width: 20px; }
     .contact_info_box .iconlist_block .iconlist_text strong {

@@ -16,7 +16,7 @@ $useTemplateAssets = true;
     <div class="row justify-content-center">
       <div class="col-lg-7">
         <div class="heading_block text-center text-dark">
-          <h2 class="heading_text">
+          <h2 class="heading_text text-dark">
             Invest in Skill. Build Real Consistency.
           </h2>
           <p class="heading_description mb-0 text-dark">
@@ -41,7 +41,7 @@ $useTemplateAssets = true;
             Lifetime Mentorship Access
           </h3>
           <hr>
-          <a class="btn bg-primary w-100 m-0" href="/apply">
+          <a class="btn bg-primary w-100 m-0" href="#" data-payment-modal data-plan="Lifetime Mentorship" data-price="$1000">
             <span class="btn_label">Apply for Mentorship</span>
             <span class="btn_icon">
               <i class="ph ph-arrow-up-right"></i>
@@ -54,23 +54,23 @@ $useTemplateAssets = true;
           <ul class="iconlist_block unordered_list_block">
             <li>
               <span class="iconlist_icon"><i class="ph ph-check"></i></span>
-              <span class="iconlist_text">Full Market Structure Curriculum</span>
+              <span class="iconlist_text text-white">Full Market Structure</span>
             </li>
             <li>
               <span class="iconlist_icon"><i class="ph ph-check"></i></span>
-              <span class="iconlist_text">Smart Money & Liquidity Models</span>
+              <span class="iconlist_text  text-white">Smart Money & Liquidity</span>
             </li>
             <li>
               <span class="iconlist_icon"><i class="ph ph-check"></i></span>
-              <span class="iconlist_text">Weekly Live Market Breakdown</span>
+              <span class="iconlist_text text-white">Weekly Live Market</span>
             </li>
             <li>
               <span class="iconlist_icon"><i class="ph ph-check"></i></span>
-              <span class="iconlist_text">Private Community Access</span>
+              <span class="iconlist_text text-white">Private Community Access</span>
             </li>
             <li>
               <span class="iconlist_icon"><i class="ph ph-check"></i></span>
-              <span class="iconlist_text">Trade Journaling & Performance</span>
+              <span class="iconlist_text text-white">Trade Journaling</span>
             </li>
           </ul>
         </div>
@@ -88,7 +88,7 @@ $useTemplateAssets = true;
             Trade Signal Channel
           </h3>
           <hr>
-          <a class="btn bg-primary w-100 m-0" href="/apply-signals">
+          <a class="btn bg-primary w-100 m-0" href="#" data-payment-modal data-plan="Trade Signal Channel" data-price="$500">
             <span class="btn_label">Join Signal Channel</span>
             <span class="btn_icon">
               <i class="ph ph-arrow-up-right"></i>
@@ -101,19 +101,19 @@ $useTemplateAssets = true;
           <ul class="iconlist_block unordered_list_block">
             <li>
               <span class="iconlist_icon"><i class="ph ph-check"></i></span>
-              <span class="iconlist_text">High-Probability Trade Setups</span>
+              <span class="iconlist_text text-white">High-Probability Trade Setups</span>
             </li>
             <li>
               <span class="iconlist_icon"><i class="ph ph-check"></i></span>
-              <span class="iconlist_text">Entry, Stop-Loss & Target Levels</span>
+              <span class="iconlist_text text-white">Entry, Stop-Loss & Target Levels</span>
             </li>
             <li>
               <span class="iconlist_icon"><i class="ph ph-check"></i></span>
-              <span class="iconlist_text">Structured Trade Commentary</span>
+              <span class="iconlist_text text-white">Structured Trade Commentary</span>
             </li>
             <li>
               <span class="iconlist_icon"><i class="ph ph-check"></i></span>
-              <span class="iconlist_text">Risk-Based Execution Model</span>
+              <span class="iconlist_text text-white">Risk-Based Execution Model</span>
             </li>
           </ul>
         </div>
@@ -124,4 +124,5 @@ $useTemplateAssets = true;
   </div>
 </section>
 
+<?php include 'includes/payment-modal.php'; ?>
 <?php require_once './includes/footer.php'; ?>
